@@ -1,1 +1,11 @@
-
+$name : A Loot Generator
+$author : Eli
+$description : Generates random D&D loot
+$button : Inspect the hoard
+$all roots
+$weapon
+	halberd
+	greatsword
+	rapier
+	maul
+	trident
