@@ -13,5 +13,5 @@ $enchantment
 	cowardice
 	freezing
 	scorching
-$loot item
+$lootitem
 	[weapon,title] of [enchantment,title]
