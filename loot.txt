@@ -9,3 +9,9 @@ $weapon
 	rapier
 	maul
 	trident
+$enchantment
+	cowardice
+	freezing
+	scorching
+$loot item
+	[weapon,title] of [enchantment,title]
