@@ -3,6 +3,7 @@ $author : Eli
 $description : Generates random D&D loot
 $button : Inspect the hoard
 $all roots
+$amount : 5
 $weapon
 	halberd
 	greatsword
