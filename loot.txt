@@ -71,16 +71,16 @@ $armor enchantment
 	fortify [skill]
 	resist [damage type]
 $rare damage type
-	fire
+	flame
 	lightning
 	acid
 	poison
 	thunder
 	cold
 	force
-	necrotic
-	radiant
-	psychic
+	dark energy
+	radiance
+	mental anguish
 $damage type
 	fire
 	lightning
