@@ -67,6 +67,21 @@ $weapon enchantment
 	[rare damage type]
 	[rare damage type]
 	[cowardice|banishment|turn undead|paralyze]
+$armor
+	padded armor
+	leather armor
+	studded leather armor
+	chain shirt
+	hide armor
+	scale mail armor
+	chainmail armor
+	breastplate
+	splint mail armor
+	banded mail armor
+	half-plate armor
+	plate armor
+	buckler
+	sheild
 $armor enchantment
 	fortify [skill]
 	resist [damage type]
@@ -116,3 +131,4 @@ $skill
 	persuasion
 $loot item
 	[weapon,title] of [weapon enchantment,title]
+	[armor,title] of [armor enchantment,title]
