@@ -83,8 +83,8 @@ $armor
 	buckler
 	sheild
 $armor enchantment
-	fortify [skill]
-	resist [damage type]
+	[skill] expertise
+	[damage type] resistance
 $rare damage type
 	flame
 	lightning
