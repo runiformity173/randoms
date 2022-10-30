@@ -240,7 +240,7 @@ $armor item
 	[armor,title] of [armor enchantment,title] {50%}
 $trinket item
 	[trinket]
-	[trinket]. [trinket effect] {20%}
+	[trinket]. [Trinket effect] {20%}
 $loot item
 	[weapon item]
 	[armor item]
