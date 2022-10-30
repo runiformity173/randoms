@@ -256,7 +256,7 @@ $art250
 	Gold bird cage with electrum filigree
 $art750
 	Silver chalice set with moonstones
-	Silver-plated steellongsword with jet set in hilt
+	Silver-plated steel longsword with jet set in hilt
 	Carved harp of exotic wood with ivory inlay and zircon gems
 	Small gold idol
 	Gold dragon comb set with red garnets as eyes
@@ -274,7 +274,7 @@ $art2500
 	Jeweled anklet
 	Gold music box
 	Gold circlet set with four aquamarines
-	Eye patch with a mock eye set in blue sapphire andmoonstone
+	Eye patch with a mock eye set in blue sapphire and moonstone
 	A necklace string of small pink pearls
 $art7500
 	Jeweled gold crown
@@ -295,11 +295,11 @@ $trinket item
 	[trinket]
 	[trinket]. [trinket effect,Abc] {20%}
 $art item
-	[an] [art25] worth 25gp
-	[an] [art250] worth 250gp {64%}
-	[an] [art750] worth 750gp {32%}
-	[an] [art2500] worth 2500gp {16%}
-	[an] [art7500] worth 7500gp {8%}
+	[an] [art25,lower] worth 25gp
+	[an] [art250,lower] worth 250gp {64%}
+	[an] [art750,lower] worth 750gp {32%}
+	[an] [art2500,lower] worth 2500gp {16%}
+	[an] [art7500,lower] worth 7500gp {8%}
 $money item
 	[1-50] gold pieces
 	[100-300] gold peices
