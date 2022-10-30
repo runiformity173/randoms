@@ -425,11 +425,11 @@ $>misc item
 	Waterskin
 	Whetstone
 $>weapon item
-	[weapon,title]
-	[weapon,title] of [weapon enchantment,title] {50%}
+	[weapon,Abc]
+	[weapon,Abc] of [weapon enchantment,lower] {50%}
 $>armor item
-	[armor,title]
-	[armor,title] of [armor enchantment,title] {50%}
+	[armor,Abc]
+	[armor,Abc] of [armor enchantment,lower] {50%}
 $>trinket item
 	[trinket]
 	[trinket]. [trinket effect,Abc] {20%}
