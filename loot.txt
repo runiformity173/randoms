@@ -287,13 +287,13 @@ $art7500
 	Bejeweled ivory drinking horn with gold filigree
 $gem10
 	Azurite (opaque mottled deep blue)
-	Banded agate (translucent striped brown, blue, white, or red)
+	Banded agate (translucent striped [brown|blue|white|red])
 	Blue quartz (transparent pale blue)
-	Eye agate (translucent circles of gray, white, brown, blue, or green)
+	Eye agate (translucent circles of [gray|white|brown|blue|green])
 	Hematite (opaque gray-black)
 	Lapis lazuli (opaque light and dark blue with yellow flecks)
 	Malachite (opaque striated light and dark green)
-	Moss agate (translucent pink or yellow-white with mossy gray or green markings)
+	Moss agate (translucent [pink|yellow-white] with [mossy gray|green] markings)
 	Obsidian (opaque black)
 	Rhodochrosite (opaque light pink)
 	Tiger eye (translucent brown with golden center)
@@ -304,10 +304,10 @@ $gem50
 	Chalcedony (opaque white)
 	Chrysoprase (translucent green)
 	Citrine (transparent pale yellow-brown)
-	Jasper (opaque blue, black, or brown)
+	Jasper (opaque [blue|black|brown])
 	Moonstone (translucent white with pale blue glow)
-	Onyx (opaque bands of black and white, or pure black or white)
-	Quartz (transparent white, smoky gray, or yellow)
+	Onyx ([opaque bands of black and white|pure [black|white]])
+	Quartz (transparent [white|smoky gray|yellow])
 	Sardonyx (opaque bands of red and white)
 	Star rose quartz (translucent rosy stone with white star-shaped center)
 	Zircon (transparent pale blue-green)
@@ -326,10 +326,10 @@ $gem1000
  	Opal (translucent pale blue with green and golden mottling)
 	Star ruby (translucent ruby with white star-shaped center)
 	Star sapphire (translucent blue sapphire with white star-shaped center)
-	Yellow sapphire (transparent fiery yellow or yellow green)
+	Yellow sapphire (transparent [fiery yellow|yellow green])
 $gem5000
 	Black sapphire (translucent lustrous black with glowing highlights)
-	Diamond (transparent blue-white, canary, pink, brown, or blue)
+	Diamond (transparent [blue-white|canary|pink|brown|blue])
 	Jacinth (transparent fiery orange)
 	Ruby (transparent clear red to deep crimson)
 $weapon item
@@ -452,8 +452,8 @@ $misc item
 	Waterskin
 	Whetstone
 $loot item
-	[weapon item]
-	[armor item]
-	[trinket item]
+	[weapon item] {30%}
+	[armor item] {20%}
+	[trinket item] {75%}
 	[money item]
 	[an,Abc] [misc item,lower]
