@@ -232,6 +232,17 @@ $skill
 	intimidation
 	performance
 	persuasion
+$art25
+	silver ewer
+	carved bone statuette
+	small gold bracelet
+	cloth-of-gold vestments
+	black velvet mask stitched with silver thread
+	copper chalice with silver filigree
+	pair of engraved bone dice
+	small mirror set in a painted wooden frame
+	embroidered silk handkerchief
+	gold locket with a painted portrait inside
 $weapon item
 	[weapon,title]
 	[weapon,title] of [weapon enchantment,title] {50%}
@@ -241,6 +252,12 @@ $armor item
 $trinket item
 	[trinket]
 	[trinket]. [trinket effect,Abc] {20%}
+$art item
+	[art25] worth 25gp
+$money item
+	[1-50] gold pieces
+	[100-300] gold peices
+	[an] [art item]
 $loot item
 	[weapon item]
 	[armor item]
