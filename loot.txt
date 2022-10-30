@@ -129,6 +129,12 @@ $skill
 	intimidation
 	performance
 	persuasion
+$weapon item
+	[weapon,title]
+	[weapon,title] of [weapon enchantment,title] {50%}
+$armor item
+	[armor,title]
+	[armor,title] of [armor enchantment,title] {50%}
 $loot item
-	[weapon,title] of [weapon enchantment,title]
-	[armor,title] of [armor enchantment,title]
+	[weapon item]
+	[armor item]
