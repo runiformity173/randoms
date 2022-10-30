@@ -2,7 +2,6 @@ $name : A Loot Generator
 $author : Eli
 $description : Generates random D&D loot
 $button : Inspect the hoard
-$all roots
 $amount : 50
 $trinket
 	A mummified goblin hand
@@ -332,33 +331,33 @@ $gem5000
 	Diamond (transparent [blue-white|canary|pink|brown|blue])
 	Jacinth (transparent fiery orange)
 	Ruby (transparent clear red to deep crimson)
-$weapon item
+$>weapon item
 	[weapon,title]
 	[weapon,title] of [weapon enchantment,title] {50%}
-$armor item
+$>armor item
 	[armor,title]
 	[armor,title] of [armor enchantment,title] {50%}
-$trinket item
+$>trinket item
 	[trinket]
 	[trinket]. [trinket effect,Abc] {20%}
-$art item
+$>art item
 	[an] [art25,lower] worth 25gp
 	[an] [art250,lower] worth 250gp {64%}
 	[an] [art750,lower] worth 750gp {32%}
 	[an] [art2500,lower] worth 2500gp {16%}
 	[an] [art7500,lower] worth 7500gp {8%}
-$gem item
+$>gem item
 	[an] [gem10,lower] worth 10gp
 	[an] [gem50,lower] worth 50gp {64%}
 	[an] [gem500,lower] worth 500gp {32%}
 	[an] [gem1000,lower] worth 100gp {16%}
 	[an] [gem5000,lower] worth 5000gp {8%}
-$money item
+$>money item
 	[1-50] gold pieces
 	[100-300] gold peices
 	[art item,Abc]
 	[gem item,Abc]
-$misc item
+$>misc item
 	Abacus
 	vial of Acid
 	flask of Alchemist's fire
@@ -451,7 +450,7 @@ $misc item
 	empty Vial
 	Waterskin
 	Whetstone
-$loot item
+$>loot item
 	[weapon item] {30%}
 	[armor item] {20%}
 	[trinket item] {75%}
