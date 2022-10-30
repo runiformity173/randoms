@@ -12,7 +12,6 @@ $trinket
 	A brass ring that never tarnishes
 	An old chess piece made from glass
 	A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips
-	A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it
 	A rope necklace from which dangles four mummified elf fingers
 	The deed for a parcel of land in a realm unknown to you
 	A 1-ounce block made from an unknown material
@@ -51,7 +50,7 @@ $trinket
 	A mechanical canary inside a gnomish lamp
 	A tiny chest carved to look like it has numerous feet on the bottom
 	A dead sprite inside a clear glass bottle
-	A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)
+	A metal can that has no opening but sounds as if it is filled with [liquid|sand|spiders|or|broken glass]
 	A glass orb filled with water, in which swims a clockwork goldfish
 	A silver spoon with an 'M' engraved on the handle
 	A whistle made from gold-colored wood
@@ -69,7 +68,6 @@ $trinket
 	A silver skull the size of a coin
 	An alabaster mask
 	A pyramid of sticky black incense that smells very bad
-	A nightcap that, when worn, gives you pleasant dreams
 	A single caltrop made from bone
 	A gold monocle frame without the lens
 	A 1-inch cube, each side painted a different color
@@ -105,6 +103,10 @@ $trinket
 	A glass jar containing lard with a label that reads, "Griffon Grease"
 	A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body
 	A metal urn containing the ashes of a hero
+$trinket effects
+	it gives you worrying nightmares when present
+	it gives you pleasant dreams when present
+	you feel as if it is always watching you, which is [unsettling|comforting]
 $weapon
 	dagger
 	punching dagger
@@ -238,6 +240,7 @@ $armor item
 	[armor,title] of [armor enchantment,title] {50%}
 $trinket item
 	[trinket]
+	[trinket]. [trinket effect] {20%}
 $loot item
 	[weapon item]
 	[armor item]
