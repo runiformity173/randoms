@@ -104,8 +104,8 @@ $trinket
 	A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body
 	A metal urn containing the ashes of a hero
 $trinket effect
-	it gives you worrying nightmares when present
-	it gives you pleasant dreams when present
+	it afflicts you with worrying nightmares when on your person
+	it gives you pleasant dreams when on your person
 	you feel as if it is always watching you, which is [unsettling|comforting]
 $weapon
 	dagger
@@ -166,7 +166,7 @@ $weapon
 	repeating crossbow
 	blowgun
 $weapon enchantment
-	absorb [health|magic]
+	[health|magic] absorption
 	[rare damage type]
 	[rare damage type]
 	[cowardice|banishment|turn undead|paralyze]
@@ -198,7 +198,7 @@ $rare damage type
 	force
 	dark energy
 	radiance
-	mental anguish
+	agony
 $damage type
 	fire
 	lightning
@@ -285,6 +285,53 @@ $art7500
 	Painted gold child's sarcophagus
 	Jade game board with solid gold playing pieces
 	Bejeweled ivory drinking horn with gold filigree
+$gem10
+	Azurite (opaque mottled deep blue)
+	Banded agate (translucent striped brown, blue, white, or red)
+	Blue quartz (transparent pale blue)
+	Eye agate (translucent circles of gray, white, brown, blue, or green)
+	Hematite (opaque gray-black)
+	Lapis lazuli (opaque light and dark blue with yellow flecks)
+	Malachite (opaque striated light and dark green)
+	Moss agate (translucent pink or yellow-white with mossy gray or green markings)
+	Obsidian (opaque black)
+	Rhodochrosite (opaque light pink)
+	Tiger eye (translucent brown with golden center)
+	Turquoise (opaque light blue-green)
+$gem50
+	Bloodstone (opaque dark gray with red flecks)
+	Carnelian (opaque orange to red-brown)
+	Chalcedony (opaque white)
+	Chrysoprase (translucent green)
+	Citrine (transparent pale yellow-brown)
+	Jasper (opaque blue, black, or brown)
+	Moonstone (translucent white with pale blue glow)
+	Onyx (opaque bands of black and white, or pure black or white)
+	Quartz (transparent white, smoky gray, or yellow)
+	Sardonyx (opaque bands of red and white)
+	Star rose quartz (translucent rosy stone with white star-shaped center)
+	Zircon (transparent pale blue-green)
+$gem500
+	Alexandrite (transparent dark green)
+	Aquamarine (transparent pale blue-green)
+	Black pearl (opaque pure black)
+	Blue spinel (transparent deep blue)
+	Peridot (transparent rich olive green)
+	Topaz (transparent golden yellow)
+$gem1000
+	Black opal (translucent dark green with black mottling and golden flecks)
+	Blue sapphire (transparent blue-white to medium blue)
+ 	Emerald (transparent deep bright green)
+ 	Fire opal (translucent fiery red)
+ 	Opal (translucent pale blue with green and golden mottling)
+	Star ruby (translucent ruby with white star-shaped center)
+	Star sapphire (translucent blue sapphire with white star-shaped center)
+	Yellow sapphire (transparent fiery yellow or yellow green)
+$gem5000
+	Black sapphire (translucent lustrous black with glowing highlights)
+	Diamond (transparent blue-white, canary, pink, brown, or blue)
+	Jacinth (transparent fiery orange)
+	Ruby (transparent clear red to deep crimson)
 $weapon item
 	[weapon,title]
 	[weapon,title] of [weapon enchantment,title] {50%}
@@ -300,10 +347,17 @@ $art item
 	[an] [art750,lower] worth 750gp {32%}
 	[an] [art2500,lower] worth 2500gp {16%}
 	[an] [art7500,lower] worth 7500gp {8%}
+$gem item
+	[an] [gem10,lower] worth 10gp
+	[an] [gem50,lower] worth 50gp {64%}
+	[an] [gem500,lower] worth 500gp {32%}
+	[an] [gem1000,lower] worth 100gp {16%}
+	[an] [gem5000,lower] worth 5000gp {8%}
 $money item
 	[1-50] gold pieces
 	[100-300] gold peices
 	[art item,Abc]
+	[gem item,Abc]
 $loot item
 	[weapon item]
 	[armor item]
