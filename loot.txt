@@ -358,8 +358,102 @@ $money item
 	[100-300] gold peices
 	[art item,Abc]
 	[gem item,Abc]
+$misc item
+	Abacus
+	vial of Acid
+	flask of Alchemist's fire
+	vial of Antitoxin
+	Crystal
+	Orb
+	Rod
+	Staff
+	Wand
+	Backpack
+	bag of 1,000 Ball bearings
+	Barrel
+	Basket
+	Bedroll
+	Bell
+	Blanket
+	Block and tackle
+	Book
+	glass Bottle
+	Bucket
+	bag of 20 Caltrops
+	Candle
+	10-foot Chain
+	piece of Chalk
+	Chest
+	Climber's kit
+	set of common clothes
+	set of fine clothes
+	set of traveler's clothes
+	Component pouch
+	Crowbar
+	Druidic focus
+	Sprig of mistletoe
+	Totem
+	Wooden staff
+	Yew wand
+	Fishing tackle
+	Flask or tankard
+	Grappling hook
+	Hammer
+	sledgehammer
+	Healer's kit
+	Holy symbol
+	Amulet
+	Emblem
+	Reliquary
+	flask of holy water
+	Hourglass
+	Hunting trap
+	bottle of ink
+	Ink pen
+	Jug or pitcher
+	10-foot Ladder
+	Lamp
+	bullseye lantern
+	hooded lantern
+	Lock
+	Magnifying glass
+	Manacles
+	Mess kit
+	steel mirror
+	flask of oil
+	sheet of paper
+	sheet of parchment
+	vial of perfume
+	miner's pick
+	Piton
+	vial of basic poison
+	10-foot pole
+	iron pot
+	Potion of healing
+	Pouch
+	Quiver
+	portable ram
+	day of rations
+	set of Robes
+	50-foot hempen rope
+	50-foot silk rope
+	Sack
+	merchant's scale
+	Shovel
+	Signal whistle
+	Signet ring
+	bar of Soap
+	Spellbook
+	Spyglass
+	two-person tent
+	Tinderbox
+	Torch
+	empty Vial
+	Waterskin
+	Whetstone
 $loot item
 	[weapon item]
 	[armor item]
 	[trinket item]
 	[money item]
+	[an,Abc] [misc item,lower]
