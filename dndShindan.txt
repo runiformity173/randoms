@@ -4,3 +4,6 @@ $description : Generates random D&D loot
 $button : Inspect the hoard
 $include https://raw.githubusercontent.com/ezhgamer173/randoms/main/loot.txt
 $seed text : Character's name here
+$amount : 0
+$character
+	A Paladin that mainly uses a [weapon item] and wears [armor item].
