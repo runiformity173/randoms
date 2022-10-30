@@ -3,7 +3,7 @@ $author : Eli
 $description : Generates random D&D loot
 $button : Inspect the hoard
 $all roots
-$amount : 5
+$amount : 50
 $weapon
 	dagger
 	punching dagger
