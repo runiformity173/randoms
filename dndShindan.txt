@@ -1,1 +1,6 @@
-
+$name : Player Shindan
+$author : Someone, I'm sure
+$description : Generates random D&D loot
+$button : Inspect the hoard
+$include https://raw.githubusercontent.com/ezhgamer173/randoms/main/loot.txt
+$seed text : Character's name here
