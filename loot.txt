@@ -50,8 +50,8 @@ $weapon
 	longbow
 	composite longbow
 	kama {50%}
-	kukri
-	nunchaku
+	kukri {50%}
+	nunchaku {50%}
 	bastard sword
 	dwarven waraxe
 	orc double axe
@@ -62,9 +62,57 @@ $weapon
 	whip
 	repeating crossbow
 	blowgun
-$enchantment
-	cowardice
-	freezing
-	scorching
+$weapon enchantment
+	absorb [health|magic]
+	[rare damage type]
+	[rare damage type]
+	[cowardice|banishment|turn undead|paralyze]
+$armor enchantment
+	fortify [skill]
+	resist [damage type]
+$rare damage type
+	fire
+	lightning
+	acid
+	poison
+	thunder
+	cold
+	force
+	necrotic
+	radiant
+	psychic
+$damage type
+	fire
+	lightning
+	acid
+	poison
+	thunder
+	cold
+	force
+	necrotic
+	radiant
+	psychic
+	piercing
+	bludgeoning
+	slashing
+$skill
+	athletics
+	acrobatics
+	sleight of hand
+	stealth
+	arcana
+	history
+	investigation
+	nature
+	religion
+	animal handling
+	insight
+	medicine
+	perception
+	survival
+	deception
+	intimidation
+	performance
+	persuasion
 $loot item
 	[weapon,title] of [enchantment,title]
