@@ -331,32 +331,6 @@ $gem5000
 	Diamond (transparent [blue-white|canary|pink|brown|blue])
 	Jacinth (transparent fiery orange)
 	Ruby (transparent clear red to deep crimson)
-$>weapon item
-	[weapon,title]
-	[weapon,title] of [weapon enchantment,title] {50%}
-$>armor item
-	[armor,title]
-	[armor,title] of [armor enchantment,title] {50%}
-$>trinket item
-	[trinket]
-	[trinket]. [trinket effect,Abc] {20%}
-$>art item
-	[an] [art25,lower] worth 25gp
-	[an] [art250,lower] worth 250gp {64%}
-	[an] [art750,lower] worth 750gp {32%}
-	[an] [art2500,lower] worth 2500gp {16%}
-	[an] [art7500,lower] worth 7500gp {8%}
-$>gem item
-	[an] [gem10,lower] worth 10gp
-	[an] [gem50,lower] worth 50gp {64%}
-	[an] [gem500,lower] worth 500gp {32%}
-	[an] [gem1000,lower] worth 100gp {16%}
-	[an] [gem5000,lower] worth 5000gp {8%}
-$>money item
-	[1-50] gold pieces
-	[100-300] gold peices
-	[art item,Abc]
-	[gem item,Abc]
 $>misc item
 	Abacus
 	vial of Acid
@@ -450,6 +424,32 @@ $>misc item
 	empty Vial
 	Waterskin
 	Whetstone
+$>weapon item
+	[weapon,title]
+	[weapon,title] of [weapon enchantment,title] {50%}
+$>armor item
+	[armor,title]
+	[armor,title] of [armor enchantment,title] {50%}
+$>trinket item
+	[trinket]
+	[trinket]. [trinket effect,Abc] {20%}
+$>art item
+	[an] [art25,lower] worth 25gp
+	[an] [art250,lower] worth 250gp {50%}
+	[an] [art750,lower] worth 750gp {25%}
+	[an] [art2500,lower] worth 2500gp {12%}
+	[an] [art7500,lower] worth 7500gp {6%}
+$>gem item
+	[an] [gem10,lower] worth 10gp
+	[an] [gem50,lower] worth 50gp {50%}
+	[an] [gem500,lower] worth 500gp {25%}
+	[an] [gem1000,lower] worth 100gp {12%}
+	[an] [gem5000,lower] worth 5000gp {6%}
+$>money item
+	[1-50] gold pieces
+	[100-300] gold peices
+	[art item,Abc]
+	[gem item,Abc]
 $>loot item
 	[weapon item] {30%}
 	[armor item] {20%}
