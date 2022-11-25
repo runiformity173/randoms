@@ -331,7 +331,7 @@ $gem5000
 	Diamond (transparent [blue-white|canary|pink|brown|blue])
 	Jacinth (transparent fiery orange)
 	Ruby (transparent clear red to deep crimson)
-$>misc item
+$misc ite
 	Abacus
 	vial of Acid
 	flask of Alchemist's fire
@@ -424,6 +424,8 @@ $>misc item
 	empty Vial
 	Waterskin
 	Whetstone
+$>misc item
+	[misc ite,Abc]
 $>weapon item
 	[weapon,Abc]
 	[weapon,Abc] of [weapon enchantment,lower] {50%}
